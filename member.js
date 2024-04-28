@@ -1,4 +1,9 @@
-function skillsMemeber() {
-    var skills = ["HTML", "CSS", "JavaScript", "React", "Node.js"];
-    return skills;
+function skillsMember() {
+  return {
+    type: 'SKILLS_MEMBER',
+    payload: {
+      name: 'John Doe',
+      skills: ['HTML', 'CSS', 'JS'],
+    },
+  };
 }
